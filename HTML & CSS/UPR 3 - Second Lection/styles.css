@@ -1,0 +1,59 @@
+body{
+    padding: 0 20px;
+    color: #fff
+}
+
+h1{
+    color: #4f5400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: wavy;
+    font-size: 70px;
+    font-style: normal;
+    text-align: center;
+
+}
+
+h3{
+    color: #90990e;
+    text-align: center;
+    text-decoration: wavy;
+    font-family:Arial, Halvetica, sans-serif;
+    font-size:30px;
+    font-style: italic;
+}
+
+.figure1{
+    float: left;
+    margin: 10px 20px;
+}
+
+.figure2{
+    float: right;
+    margin: 10px 20px;
+}
+
+img{
+    width: 350px;
+    border: 5px solid #555;
+}
+
+.paragraph1 {
+    text-decoration:wavy;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+}
+
+.paragraph2{
+    text-decoration:solid;
+    text-align: center;
+    font-style:italic;
+    font-size: 40px;
+    color: black;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
