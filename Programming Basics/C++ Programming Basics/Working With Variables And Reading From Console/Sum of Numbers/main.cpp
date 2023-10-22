@@ -1,14 +1,18 @@
-#include <iostream>
-using namespace std;
+3, 3
+1 2 3
+4 5 6
+7 8 9
 
-int main()
-{
-	double a, b, sum;
-	cout << "Enter your first number: ";
-	cin >> a;
-	cout << "Enter your second number: ";
-	cin >> b;
-	sum = a + b;
-	cout << "Your sum is: " << sum;
-	return 0;
-}
+3, 6
+7 1 3 3 2 1
+1 3 9 8 5 6
+4 6 7 9 1 0
+
+3
+1 2 3
+4 5 6 7
+8 9 10
+Add 0 0 5
+Subtract 1 2 2
+Subtract 1 4 7
+END

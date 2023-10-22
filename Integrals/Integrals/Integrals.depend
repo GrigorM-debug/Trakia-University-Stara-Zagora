@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1686433071 source:c:\trakia university - software engeneering\integrals\integrals\main.cpp
+	<iostream>
+	<locale>
+	<cmath>
+
