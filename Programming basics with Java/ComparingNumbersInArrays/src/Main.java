@@ -8,6 +8,7 @@ public class Main {
         int [] arr2 = {10,20,30,40,50,60};
         int [] arr3 = {6,5,3,2,1};
 
+<<<<<<< HEAD
         System.out.println(arrEqual(arr1, arr2));
     }
 
@@ -22,6 +23,13 @@ public class Main {
             }
         }
         return true;
+=======
+        System.out.println(arrEqual(arr1, arr3));
+    }
+
+    static boolean arrEqual(int[] firstArray, int[] secondArray){
+        return Arrays.equals(firstArray, secondArray);
+>>>>>>> 0b3bfcb765ec24bccabdcb7d97f170003407c1ef
     }
 }
 

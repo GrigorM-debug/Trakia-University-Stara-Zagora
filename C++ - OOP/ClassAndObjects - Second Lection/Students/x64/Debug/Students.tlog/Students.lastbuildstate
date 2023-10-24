@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.34.31933:TargetPlatformVersion=10.0.22000.0:
 Debug|x64|C:\Trakia University - Software Engeneering\C++ - OOP\ClassAndObjects - Second Lection\|
+=======
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.34.31933:TargetPlatformVersion=10.0.22000.0:
+Debug|x64|C:\Trakia University - Software Engeneering\C++ - OOP\ClassAndObjects - Second Lection\|
+>>>>>>> 0b3bfcb765ec24bccabdcb7d97f170003407c1ef

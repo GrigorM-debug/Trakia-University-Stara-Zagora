@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #ebebed;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPhone 15</title>
+    <link rel="icon" type="images/iphone.jpeg" href="images/smartphone (2).png">
+    <style>
+        fieldset{
+            background-color: #eeeeee;
+        }
+        legend{
+            background-color: gray;
+            color:white;
+            padding: 5px 10px;    
+        }
+    </style>
+</head>
+
+<body>
+    <H1>Анкета за мобилни телефони</H1>
+     <form style="width: 500px;" action="#">
+        <fieldset style="background-color: #eff;">
+            <legend style="background-color: white; color: black;">Информация за участник</legend>
+            <p><label for="ime">Име и фамилия</label><br>
+                <input name="ime" type="text" size="50">
+            </p>
+            <p>
+                <input name="email" type="email" spellcheck="false" value="" maxlength="255" size="50"
+                placeholder="example@mail.com">
+            </p>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Коя марка телефон предпочитате?</legend>
+            <input name="phone" type="radio" value="apple" checked="checked">
+            <label>Apple</label>
+            <br>
+            <input name="phone" type="radio" value="Samsung">
+            <label>Samsung</label>
+            <br>
+            <input name="phone" type="radio" value="Motorola">
+            <label>Motorola</label>
+            <br>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>За какво използвате телефона си?</legend>
+            <input name="razgovor" type="checkbox" value="разговори">
+            <label for="razgovor">За разговори</label>
+            <br>
+            <input name="game" type="checkbox" value="игри">
+            <label for="game">Игри</label>
+            <br>
+            <input name="internet" type="checkbox" value="интернет">
+            <label for="internet">За информация от интернет</label>
+            <br>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>На кой мобилен оператор сте?</legend>
+            <label for="Field106">Изберете:</label>
+            <select name="mobileoperator">
+                <option value="Vivacom">Vivacom</option>
+                <option value="A1">A1</option>
+                <option value="Yettel">Yettel</option>
+            </select>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Обратна връзка</legend>
+            <p>
+                <textarea name="mess" spellcheck="true" row="5" cols="48" placeholder="Моля, споделете мнение за анкетата"></textarea>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
