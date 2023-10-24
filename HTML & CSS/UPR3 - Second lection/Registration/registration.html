@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>registration</title>    
+        <link rel="stylesheet" href="style.css">
+        <body>
+            <main>
+                <form onsubmit="return false"; style="width: 600px;">
+                    <h2>Регистрация</h2>
+                    <label>Име</label>
+                    <input type="text" minlength="2" placeholder="Минимум 2 символа">
+
+                    <label>Фамилия</label>
+                    <input type="text" minlength="2" placeholder="Минимум 2 символа">
+
+                    <label>Email</label>
+                    <input type="email" placeholder="Въведете валиден e-mail адрес">
+
+                    <label>Телефон</label>
+                    <input type="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="Въведете телефонен номер 0xxx-xxx-xxx">
+
+                    <label>Дата на раждане</label>
+                    <input type="date">
+
+                    <label>Потребителско име</label>
+                    <input type="text" minlength="6" placeholder="Минимум 6 символа">
+
+                    <label>Парола</label>
+                    <input type="password" pattern="(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}" placeholder="Минимум 8 символа, 1 цифра, 1 голяма буква, 1 малка буква, 1 символ">
+
+                    <input type="submit" value="Регистрация">
+                </form>
+            </main>
+        </body>
+    </head>
+</html>

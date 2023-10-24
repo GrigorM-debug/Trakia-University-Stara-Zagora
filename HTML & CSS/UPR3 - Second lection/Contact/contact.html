@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact</title>    
+        <link rel="stylesheet" href="style.css">
+        <body>
+            <main>
+                <form onsubmit="return false"; style="width: 600px;">
+                    <h2>Изпратете съобшение</h2>
+                    <label>Име</label>
+                    <input type="text" minlength="2" placeholder="Минимум 2 символа">
+
+                    <label>Email</label>
+                    <input type="email" placeholder="Въведете валиден e-mail адрес">
+
+                    <label>Телефон</label>
+                    <input type="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="Въведете телефонен номер 0xxx-xxx-xxx">
+
+                    <label>Относно</label>
+                    <input type="text" maxlength="60" placeholder="Максимум 60 символа">
+
+                    <lable>Съобщение</lable>
+                    <input type="text" placeholder="Въведете съобщението си!">
+
+                    <input type="submit" value="Контакти">
+                </form>
+            </main>
+        </body>
+    </head>
+</html>
