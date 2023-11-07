@@ -3,9 +3,9 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class Date implements Comparable<Date>{
-    public int day;
-    public String month;
-    public int year;
+    private int day;
+    private String month;
+    private int year;
 
     public Date(int day, String month, int year) {
         this.setDay(day);
