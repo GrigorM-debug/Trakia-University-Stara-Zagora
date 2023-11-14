@@ -90,18 +90,22 @@ public class Main {
         System.out.print("Player, choose symbol (X-O): ");
         String input = scanner.nextLine();
 
-        if (input.equalsIgnoreCase("X")) {
-            currentPlayer = 'X';
-            currentComputer = 'O';
-            return true;
-        } else if (input.equalsIgnoreCase("O")) {
-            currentPlayer = 'O';
-            currentComputer = 'X';
-            return true;
-        } else {
-            System.out.println("Invalid choice. Please choose X or O.");
-            return false;
-        }
+
+        do{
+            if (input.equalsIgnoreCase("X")) {
+                currentPlayer = 'X';
+                currentComputer = 'O';
+                return true;
+            } else if (input.equalsIgnoreCase("O")) {
+                currentPlayer = 'O';
+                currentComputer = 'X';
+                return true;
+            }
+            else{
+                System.out.println("Invalid choice. Please choose X or O.");
+                input = scanner.nextLine();
+            }
+        }while (true);
     }
 
     static boolean playerMove() {
