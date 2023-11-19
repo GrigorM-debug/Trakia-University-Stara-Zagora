@@ -1,0 +1,201 @@
+/* Add these styles to style5.css */
+nav ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li a {
+    color: #F9690E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header > p {
+    float: left;
+    color: #F9690E;
+    font-weight: bold;
+}
+
+nav {
+    text-align: right;
+}
+
+.Powerbody {
+    background-color: #F0F1F5;
+    padding: 1rem 12rem;
+    font-family: "Helvetica", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Powerbody h1 {
+    color: #F9690E;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.Powerbody p {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.Powerbody img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.Powerbody h2 {
+    color: #F9690E;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.Powerbody h3 {
+    color: #F9690E;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.Powerbody p{
+    color: #333;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.Powerbody h4 {
+    color: #F9690E;
+}
+
+.Powerbody ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+.image-section1 {
+    background-image: url("Images/squat.jpg");
+    width: 45%; 
+    height: 500px; 
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.image-section1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.295); 
+    border-radius: 10px;
+}
+
+.image-section1 .container {
+    position: relative;
+    z-index: 1;
+    color: white; 
+    text-align: center;
+    padding: 60px;
+    /* display: flex;  */
+    align-items: center; 
+    justify-content: center;
+}
+
+.image-section1 h3{
+    color:white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.image-section1 p {
+    color: #F0F1F5;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.image-section2 {
+    background-image: url("Images/mk.jpeg");
+    width: 45%; 
+    height: 500px; 
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.247);
+    position: relative;
+}
+
+.image-section2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.603); 
+    border-radius: 10px;
+}
+
+.image-section2 .container {
+    position: relative;
+    z-index: 1;
+    color: white; 
+    text-align: center;
+    padding: 60px;
+    /* display: flex;  */
+    align-items: center; 
+    justify-content: center;
+}
+
+.image-section2 h3{
+    color:white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.image-section2 p {
+    color: #F0F1F5;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.purchase-button {
+    background: #F9690E;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.button{
+    text-align: center;
+}
+.purchase-button:hover {
+    background: #D35400;
+}
+
+footer article {
+    width: 46%;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+footer article:nth-child(2) {
+    text-align: right;
+}
+
+footer i {
+    padding: 16px;
+}
