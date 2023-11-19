@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p>
+            <i class="fas fa-dumbbell"></i>
+            <span class="site-title">HERCULES</span>
+        </p>
+        <nav>
+            <ul>
+                <li><a href='home.html'>Home</a></li>
+                <li><a href='index.html'>BMI Calculator</a></li>
+                <li><a href='#'>Trainers</a></li>
+                <li><a href='healthyRecipes.html'>Healthy Recipes</a></li>
+                <li><a href='#'>Training programs</a></li>
+                <li><a href='Contact.html'>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">  
+            <h1>BMI Calculator</h1>
+            <label>
+                <input id="h-input" type="number" placeholder="Enter Your Height in Centimeters: ">
+            </label>        
+            <label>
+                <input id="w-input" type="number" placeholder="Enter Your Weight in Kilogrames: ">
+            </label>            
+            <button type="submit" onclick="Calculate()">Calculate BMI</button>
+                
+            <div class="bmi-value">
+                <h4>BMI Value: </h4>
+                <div id="bmi-output"></div>
+            </div>
+            <div class="status">
+                <h4>Status: </h4>
+                <div id="bmi-status"></div>
+            </div>   
+        </div>
+    </main>
+    <footer>
+        <article>
+            &copy; Copyright OldWorld by Anonymous.Photos by Anonymous.
+        </article>
+
+        <article>
+            <a href="https://www.facebook.com/profile.php?id=100007039098860" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/grigor-marinov/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/grigor_marinov11/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/GrigorM-debug" target="_blank"><i class="fab fa-github"></i></a>
+        </article>
+    </footer>
+</body>
+</html>

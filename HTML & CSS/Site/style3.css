@@ -1,0 +1,84 @@
+/* Add these styles to styles.css for the Healthy Recipes page */
+
+body {
+    background-color: #F0F1F5;
+    margin: 0;
+    padding: 1rem 12rem;
+    font-family: "Helvetica", sans-serif;
+}
+
+header > p {
+    float: left;
+    color: #F9690E;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li a {
+    color: #F9690E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipe {
+    width: 45%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe h2 {
+    color: #F9690E;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.recipe-description {
+    color: #333;
+}
+
+.recipe h3 {
+    color: #F9690E;
+}
+
+.recipe ul, .recipe ol {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.recipe ol {
+    list-style-type: decimal;
+}
+
+footer article {
+    width: 46%;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+footer article:nth-child(2) {
+    text-align: right;
+}
+
+footer i {
+    padding: 16px;
+}
