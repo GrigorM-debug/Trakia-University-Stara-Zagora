@@ -1,0 +1,113 @@
+body {
+    background-color: #F0F1F5;
+    margin: 0;
+    padding: 1rem 12rem;
+    font-family: "Helvetica", sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li a {
+    color: #F9690E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header > p {
+    float: left;
+    color: #F9690E;
+    font-weight: bold;
+}
+
+nav {
+    text-align: right;
+}
+
+/* Main section */
+.trainer {
+    /* width: 80%; */
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trainer-main {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2em;
+    margin: 0 auto;
+}
+.trainer h2 {
+    color: #F9690E;
+}
+
+.trainer img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.trainer-description {
+    color: #333;
+    text-align: justify;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.trainer .button-left {
+    background: #F9690E;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-items: left;
+    /* justify-content: left; */
+    width: 20%;
+}
+
+.trainer .button-right {
+    background: #F9690E;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-items: right;
+    justify-content: right;
+    width: 20%;
+}
+
+.trainer .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Примерно разстояние между бутоните */
+}
+
+footer article {
+    width: 46%;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+footer article:nth-child(2) {
+    text-align: right;
+}
+
+footer i {
+    padding: 16px;
+}
