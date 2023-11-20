@@ -32,14 +32,23 @@ nav {
 
 /* Main section */
 .training-program {
-    width: 45%;
+    /* width: 80%; */
     margin: 20px 0;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.train {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2em;
+    margin: 0 auto;
+}
 .training-program h2 {
     color: #F9690E;
 }
@@ -52,6 +61,9 @@ nav {
 
 .training-description {
     color: #333;
+    text-align: justify;
+    font-size: 1.2rem;
+    display: flex;
 }
 
 .training-program button{

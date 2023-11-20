@@ -1,4 +1,11 @@
 /* Add these styles to style5.css */
+body {
+    background-color: #F0F1F5;
+    margin: 0;
+    padding: 1rem 12rem;
+    font-family: "Helvetica", sans-serif;
+}
+
 nav ul li {
     display: inline-block;
     padding: 0 8px;
