@@ -18,8 +18,8 @@ public class Main {
             }
 
             System.out.println("Difference in days between the dates: " + date1.numberOfDaysBetweenTwoDate(date2));
-            System.out.println("Number of days in month in first Date: " + date1.numberOfDaysInMonth(date1.month, date1.year));
-            System.out.println("Number of days in year in first Date: " + date1.numberOfDaysInYear(date1.year));
+            System.out.println("Number of days in month in first Date: " + date1.numberOfDaysInMonth(date1.getMonth(), date1.getYear()));
+            System.out.println("Number of days in year in first Date: " + date1.numberOfDaysInYear(date1.getYear()));
         } catch (IllegalArgumentException | NullPointerException e) {
             System.out.println("Error: " + e.getMessage());
         } catch (ParseException e){

@@ -47,12 +47,12 @@ public class Main {
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
                 if (board[row][col] == ' ') {
-                    return false; // This means there is still a space on the board
+                    return false;
                 }
             }
         }
 
-        return true; // The board is full
+        return true;
     }
 
     static void playGame() {
@@ -65,24 +65,24 @@ public class Main {
 
             if (isBoardFull(rows, cols, board)) {
                 System.out.println("Game is a draw!");
-                break; // Exit the loop when the game is a draw
+                break;
             }
 
             if (checkIfPlayerWin(board)) {
                 System.out.println("Player " + currentPlayer + " wins!");
-                break; // Exit the loop when a player wins
+                break;
             }
 
             if (checkIfComputerWin(board)) {
                 System.out.println("Player " + currentPlayer + " lose! Computer win.");
-                break; // Exit the loop when the computer wins
+                break;
             }
         }
     }
 
     static boolean choosingPosition() {
         if (currentPlayer != '\u0000') {
-            // Symbols have already been chosen, no need to ask again.
+
             return true;
         }
 
@@ -138,7 +138,6 @@ public class Main {
         if (isBoardFull(3, 3, board)) return 0; // It's a draw
 
         int bestMove = 0;
-        int bestScore;
 
         for (int row = 0; row < 3; row++) {
             for (int col = 0; col < 3; col++) {
